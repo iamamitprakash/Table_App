@@ -33,11 +33,11 @@ const XTable = () => {
   };
 
   return (
-    <div>
+    <div className='container'>
       <h1>Date and Views Table</h1>
       <button onClick={sortByDate} className="blue-button">Sort by Date</button>
       <button onClick={sortByViews} className="blue-button">Sort by Views</button>
-      <table className="bordered-table">
+      <table>
         <thead>
           <tr>
             <th>Date</th>
